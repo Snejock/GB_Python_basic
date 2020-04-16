@@ -21,7 +21,7 @@
 main_structure = []
 products_list = []
 i = 1
-while i <= 1:
+while i <= 2:
     products_list = [i, {'название': input('Введите название продукта: \n'),
                          'цена': int(input('Введите цену продукта: \n')),
                          'количество': int(input('Введите количество продуктов: \n')),
@@ -31,31 +31,28 @@ while i <= 1:
     i += 1
 
 print(main_structure)
-#
-# number_products = len(main_structure)
-# name_set = set()
-# price_set = set()
-# stock_set = set()
-# measure_set = set()
-#
-# i = number_products
-# for i in main_structure:
-#     name_set.add(main_structure[0][1])
-#
-# print(name_set)
 
+name_set = set()
+price_set = set()
+stock_set = set()
+measure_set = set()
 
-# count = len(main_structure)
-# while
-#     pass
-# for k in main_structure:
-#     name_list = {main_structure[k][1]['название']}
-#    price_list = [main_structure[0][1]['цена']]
-#    count_list = [main_structure]
-#print(name_list)
-#print(price_list)
+itm = 0
+for itm in main_structure:
+    name_set.add(itm[1]['название'])
+    price_set.add(itm[1]['цена'])
+    stock_set.add(itm[1]['количество'])
+    measure_set.add(itm[1]['ед.'])
 
-# for itm in main_structure:
-#     data = {'название': main_structure[itm][0][1]['название']}
-#
-# print(data)
+name_dict = {'название': list(name_set)}
+price_dict = {'цена': list(price_set)}
+stock_dict = {'количество': list(stock_set)}
+measure_dict = {'ед.': list(measure_set)}
+
+analytic_structure = dict()
+analytic_structure.update(name_dict)
+analytic_structure.update(price_dict)
+analytic_structure.update(stock_dict)
+analytic_structure.update(measure_dict)
+
+print(analytic_structure)
