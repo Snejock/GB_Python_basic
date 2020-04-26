@@ -6,13 +6,13 @@
 
 
 def sum_func(s: str):
+    """
+    Функция проверки на спецсимвол и представление строки в виде списка int значений
+    """
     num_list = []
     global exit_flag
     exit_flag = False
     for itm in s:
-        """
-        Функция проверки на спецсимвол и представление строки в виде списка int значений
-        """
         if itm == 'x':
             exit_flag = True
             break
