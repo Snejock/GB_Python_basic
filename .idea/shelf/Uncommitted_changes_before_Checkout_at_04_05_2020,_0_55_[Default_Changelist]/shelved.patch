@@ -1,0 +1,1250 @@
+Index: .idea/inspectionProfiles/profiles_settings.xml
+===================================================================
+--- .idea/inspectionProfiles/profiles_settings.xml	(revision 46033db119b0118e083bbada727b43733f408c40)
++++ .idea/inspectionProfiles/profiles_settings.xml	(revision 46033db119b0118e083bbada727b43733f408c40)
+@@ -1,6 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <settings>
+-    <option name="USE_PROJECT_PROFILE" value="false" />
+-    <version value="1.0" />
+-  </settings>
+-</component>
+\ No newline at end of file
+Index: .idea/modules.xml
+===================================================================
+--- .idea/modules.xml	(revision 46033db119b0118e083bbada727b43733f408c40)
++++ .idea/modules.xml	(revision 46033db119b0118e083bbada727b43733f408c40)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/GB_Python_basic.iml" filepath="$PROJECT_DIR$/.idea/GB_Python_basic.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/GB_Python_basic.iml
+===================================================================
+--- .idea/GB_Python_basic.iml	(revision 46033db119b0118e083bbada727b43733f408c40)
++++ .idea/GB_Python_basic.iml	(revision 46033db119b0118e083bbada727b43733f408c40)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$">
+-      <excludeFolder url="file://$MODULE_DIR$/venv" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+--- .idea/vcs.xml	(revision 46033db119b0118e083bbada727b43733f408c40)
++++ .idea/vcs.xml	(revision 46033db119b0118e083bbada727b43733f408c40)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+===================================================================
+--- .idea/workspace.xml	(revision 46033db119b0118e083bbada727b43733f408c40)
++++ .idea/workspace.xml	(revision 46033db119b0118e083bbada727b43733f408c40)
+@@ -1,395 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="BranchesTreeState">
+-    <expand>
+-      <path>
+-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-      </path>
+-      <path>
+-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-      </path>
+-      <path>
+-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+-      </path>
+-    </expand>
+-    <select />
+-  </component>
+-  <component name="ChangeListManager">
+-    <list default="true" id="d2bb1fad-0e23-4683-bbdb-1ba98ef467fb" name="Default Changelist" comment="" />
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Python Script" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="Lesson_05" />
+-      </map>
+-    </option>
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="ProjectId" id="1aTvRcf8KypqQvu2NwrIFh4C13K" />
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent">
+-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+-  </component>
+-  <component name="PyConsoleOptionsProvider">
+-    <option name="myPythonConsoleState">
+-      <console-settings>
+-        <option name="useSoftWraps" value="true" />
+-      </console-settings>
+-    </option>
+-  </component>
+-  <component name="RecentsManager">
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="$PROJECT_DIR$/my_test" />
+-      <recent name="$PROJECT_DIR$" />
+-    </key>
+-  </component>
+-  <component name="RunManager" selected="Python.practical_05.03">
+-    <configuration name="practical_05.03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-      <module name="GB_Python_basic" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_05" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_05/practical_05.03.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="practical_05.04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-      <module name="GB_Python_basic" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_05" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_05/practical_05.04.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="practical_05.05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-      <module name="GB_Python_basic" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_05" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_05/practical_05.05.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="practical_05.06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-      <module name="GB_Python_basic" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_05" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_05/practical_05.06.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-    <recent_temporary>
+-      <list>
+-        <item itemvalue="Python.practical_05.06" />
+-        <item itemvalue="Python.practical_05.05" />
+-        <item itemvalue="Python.practical_05.04" />
+-        <item itemvalue="Python.practical_05.03" />
+-      </list>
+-    </recent_temporary>
+-  </component>
+-  <component name="SvnConfiguration">
+-    <configuration />
+-  </component>
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="d2bb1fad-0e23-4683-bbdb-1ba98ef467fb" name="Default Changelist" comment="" />
+-      <created>1586772390251</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1586772390251</updated>
+-    </task>
+-    <task id="LOCAL-00001" summary="Start project">
+-      <created>1586772959110</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1586772959111</updated>
+-    </task>
+-    <task id="LOCAL-00002" summary="Add practical work for lesson_01">
+-      <created>1586786249676</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1586786249676</updated>
+-    </task>
+-    <task id="LOCAL-00003" summary="Add practical work for lesson_01">
+-      <created>1586786476083</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1586786476083</updated>
+-    </task>
+-    <task id="LOCAL-00004" summary="Add practical work for lesson_01">
+-      <created>1586803169028</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1586803169029</updated>
+-    </task>
+-    <task id="LOCAL-00005" summary="Add practical work for lesson_02">
+-      <created>1586980143346</created>
+-      <option name="number" value="00005" />
+-      <option name="presentableId" value="LOCAL-00005" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1586980143347</updated>
+-    </task>
+-    <task id="LOCAL-00006" summary="Rename file">
+-      <created>1586981975232</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1586981975232</updated>
+-    </task>
+-    <task id="LOCAL-00007" summary="Rename file">
+-      <created>1587038642137</created>
+-      <option name="number" value="00007" />
+-      <option name="presentableId" value="LOCAL-00007" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1587038642137</updated>
+-    </task>
+-    <task id="LOCAL-00008" summary="Rename file">
+-      <created>1587043813846</created>
+-      <option name="number" value="00008" />
+-      <option name="presentableId" value="LOCAL-00008" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1587043813846</updated>
+-    </task>
+-    <task id="LOCAL-00009" summary="Add practical work">
+-      <created>1587333984234</created>
+-      <option name="number" value="00009" />
+-      <option name="presentableId" value="LOCAL-00009" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1587333984234</updated>
+-    </task>
+-    <task id="LOCAL-00010" summary="Add practical work">
+-      <created>1587933377148</created>
+-      <option name="number" value="00010" />
+-      <option name="presentableId" value="LOCAL-00010" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1587933377148</updated>
+-    </task>
+-    <task id="LOCAL-00011" summary="Add practical work">
+-      <created>1588528949492</created>
+-      <option name="number" value="00011" />
+-      <option name="presentableId" value="LOCAL-00011" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1588528949492</updated>
+-    </task>
+-    <task id="LOCAL-00012" summary="Add venv">
+-      <created>1588542282428</created>
+-      <option name="number" value="00012" />
+-      <option name="presentableId" value="LOCAL-00012" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1588542282428</updated>
+-    </task>
+-    <option name="localTasksCounter" value="13" />
+-    <servers />
+-  </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State />
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="Start project" />
+-    <MESSAGE value="Add practical work for lesson_01" />
+-    <MESSAGE value="Add practical work for lesson_02" />
+-    <MESSAGE value="Rename file" />
+-    <MESSAGE value="Add practical work" />
+-    <MESSAGE value="Add venv" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Add venv" />
+-  </component>
+-  <component name="WindowStateProjectService">
+-    <state x="2507" y="215" width="800" height="684" key="#Inspections" timestamp="1587201961682">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="2507" y="215" width="800" height="684" key="#Inspections/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587201961682" />
+-    <state x="2507" y="215" width="800" height="684" key="#Notifications" timestamp="1586803199362">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="2507" y="215" width="800" height="684" key="#Notifications/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586803199362" />
+-    <state x="2370" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586772901431">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="2370" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586772901431" />
+-    <state x="2602" y="355" width="632" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587927137699">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="2602" y="355" width="632" height="410" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587927137699" />
+-    <state x="3243" y="282" width="370" height="530" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588519297806">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="2645" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.3840.1053@0.27.3840.1053" timestamp="1588197920632" />
+-    <state x="3243" y="282" width="370" height="530" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588519297806" />
+-    <state x="2518" y="148" width="912" height="817" key="CommitChangelistDialog2" timestamp="1588542282370">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="2518" y="148" width="912" height="817" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588542282370" />
+-    <state x="2695" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1588542328933">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="2695" y="311" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588542328933" />
+-    <state width="1833" height="254" key="GridCell.Tab.0.bottom" timestamp="1588542132199">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state width="1833" height="254" key="GridCell.Tab.0.bottom/0.27.3840.1053@0.27.3840.1053" timestamp="1588198114550" />
+-    <state width="1833" height="254" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588542132199" />
+-    <state width="1897" height="340" key="GridCell.Tab.0.bottom/1920.0.1920.1080/64.27.1856.1053@1920.0.1920.1080" timestamp="1587907152749" />
+-    <state width="1833" height="287" key="GridCell.Tab.0.bottom/1920.0.1920.1080/64.27.1856.1053@64.27.1856.1053" timestamp="1587196822353" />
+-    <state width="1833" height="287" key="GridCell.Tab.0.bottom/64.27.1856.1053@64.27.1856.1053" timestamp="1587244209059" />
+-    <state width="1833" height="254" key="GridCell.Tab.0.center" timestamp="1588542132199">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state width="1833" height="254" key="GridCell.Tab.0.center/0.27.3840.1053@0.27.3840.1053" timestamp="1588198114549" />
+-    <state width="1833" height="254" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588542132199" />
+-    <state width="1897" height="340" key="GridCell.Tab.0.center/1920.0.1920.1080/64.27.1856.1053@1920.0.1920.1080" timestamp="1587907152749" />
+-    <state width="1833" height="287" key="GridCell.Tab.0.center/1920.0.1920.1080/64.27.1856.1053@64.27.1856.1053" timestamp="1587196822353" />
+-    <state width="1833" height="287" key="GridCell.Tab.0.center/64.27.1856.1053@64.27.1856.1053" timestamp="1587244209057" />
+-    <state width="1833" height="254" key="GridCell.Tab.0.left" timestamp="1588542132199">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state width="1833" height="254" key="GridCell.Tab.0.left/0.27.3840.1053@0.27.3840.1053" timestamp="1588198114548" />
+-    <state width="1833" height="254" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588542132199" />
+-    <state width="1897" height="340" key="GridCell.Tab.0.left/1920.0.1920.1080/64.27.1856.1053@1920.0.1920.1080" timestamp="1587907152749" />
+-    <state width="1833" height="287" key="GridCell.Tab.0.left/1920.0.1920.1080/64.27.1856.1053@64.27.1856.1053" timestamp="1587196822352" />
+-    <state width="1833" height="287" key="GridCell.Tab.0.left/64.27.1856.1053@64.27.1856.1053" timestamp="1587244209056" />
+-    <state width="1833" height="254" key="GridCell.Tab.0.right" timestamp="1588542132199">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state width="1833" height="254" key="GridCell.Tab.0.right/0.27.3840.1053@0.27.3840.1053" timestamp="1588198114549" />
+-    <state width="1833" height="254" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588542132199" />
+-    <state width="1897" height="340" key="GridCell.Tab.0.right/1920.0.1920.1080/64.27.1856.1053@1920.0.1920.1080" timestamp="1587907152749" />
+-    <state width="1833" height="287" key="GridCell.Tab.0.right/1920.0.1920.1080/64.27.1856.1053@64.27.1856.1053" timestamp="1587196822353" />
+-    <state width="1833" height="287" key="GridCell.Tab.0.right/64.27.1856.1053@64.27.1856.1053" timestamp="1587244209058" />
+-    <state width="1833" height="340" key="GridCell.Tab.1.bottom" timestamp="1588542132197">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state width="1833" height="340" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588542132197" />
+-    <state width="1897" height="340" key="GridCell.Tab.1.bottom/1920.0.1920.1080/64.27.1856.1053@1920.0.1920.1080" timestamp="1587907152749" />
+-    <state width="1833" height="340" key="GridCell.Tab.1.bottom/64.27.1856.1053@64.27.1856.1053" timestamp="1587244207447" />
+-    <state width="1833" height="340" key="GridCell.Tab.1.center" timestamp="1588542132197">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state width="1833" height="340" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588542132197" />
+-    <state width="1897" height="340" key="GridCell.Tab.1.center/1920.0.1920.1080/64.27.1856.1053@1920.0.1920.1080" timestamp="1587907152749" />
+-    <state width="1833" height="340" key="GridCell.Tab.1.center/64.27.1856.1053@64.27.1856.1053" timestamp="1587244207446" />
+-    <state width="1833" height="340" key="GridCell.Tab.1.left" timestamp="1588542132197">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state width="1833" height="340" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588542132197" />
+-    <state width="1897" height="340" key="GridCell.Tab.1.left/1920.0.1920.1080/64.27.1856.1053@1920.0.1920.1080" timestamp="1587907152749" />
+-    <state width="1833" height="340" key="GridCell.Tab.1.left/64.27.1856.1053@64.27.1856.1053" timestamp="1587244207444" />
+-    <state width="1833" height="340" key="GridCell.Tab.1.right" timestamp="1588542132197">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state width="1833" height="340" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588542132197" />
+-    <state width="1897" height="340" key="GridCell.Tab.1.right/1920.0.1920.1080/64.27.1856.1053@1920.0.1920.1080" timestamp="1587907152749" />
+-    <state width="1833" height="340" key="GridCell.Tab.1.right/64.27.1856.1053@64.27.1856.1053" timestamp="1587244207446" />
+-    <state x="2669" y="266" width="475" height="581" key="RollbackChangesDialog" timestamp="1586786447942">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="2669" y="266" width="475" height="581" key="RollbackChangesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586786447942" />
+-    <state x="2401" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1586772657867">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="2401" y="188" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586772657867" />
+-    <state x="2507" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1588542284018">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="2507" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588542284018" />
+-    <state x="2704" y="290" width="406" height="533" key="VcsDiffUtil.ChangesDialog" timestamp="1586786432706">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="2704" y="290" width="406" height="533" key="VcsDiffUtil.ChangesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586786432706" />
+-    <state x="648" y="398" key="com.intellij.ide.util.TipDialog" timestamp="1587803150466">
+-      <screen x="0" y="27" width="1920" height="1053" />
+-    </state>
+-    <state x="648" y="398" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587803150466" />
+-    <state x="648" y="398" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587328498104" />
+-    <state x="690" y="398" key="com.intellij.ide.util.TipDialog/64.27.1856.1053@64.27.1856.1053" timestamp="1587237665289" />
+-    <state x="2575" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1588521626577">
+-      <screen x="1920" y="0" width="1920" height="1080" />
+-    </state>
+-    <state x="2575" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588521626577" />
+-    <state x="2575" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/64.27.1856.1053@1920.0.1920.1080" timestamp="1587807815343" />
+-    <state x="697" y="280" width="672" height="662" key="search.everywhere.popup/64.27.1856.1053@64.27.1856.1053" timestamp="1587243735893" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+===================================================================
+--- .idea/misc.xml	(revision 46033db119b0118e083bbada727b43733f408c40)
++++ .idea/misc.xml	(revision 46033db119b0118e083bbada727b43733f408c40)
+@@ -1,4 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (GB_Python_basic)" project-jdk-type="Python SDK" />
+-</project>
+\ No newline at end of file
+Index: lesson_04.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_04.py	(date 1588542622197)
++++ lesson_04.py	(date 1588542622197)
+@@ -0,0 +1,27 @@
++import sys
++
++print(sys.argv)
++
++# from my_modules.my_module import test
++#
++# print(test(6, 6))
++# print(__name__)
++
++
++
++# start = time()
++# for itm in range(10):
++#     print(itm)
++#     sleep(1)
++# end = time()
++# print(end - start)
++
++# a = dt.datetime.now()
++# b = dt.timedelta(days=365)
++# c = dt.datetime(2020, 4, 10, 13, 24, 33)
++# c = c.timestamp()
++# c = dt.datetime.fromtimestamp(c)
++#
++# sum = a + b
++# print(sum)
++# print(c)
+Index: my_modules/my_module.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- my_modules/my_module.py	(date 1588542622197)
++++ my_modules/my_module.py	(date 1588542622197)
+@@ -0,0 +1,15 @@
++def test(x, y) -> int:
++    """
++    Тестовая функция
++    :param x: первый аргумент
++    :param y: второй аргумент
++    :return: сумма
++    """
++    return x + y
++
++
++print('Hello')
++print(__name__)
++
++if __name__ == '__main__':
++    print('THIS IS MAIN RUN')
+Index: lesson_01/practical_01.06.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_01/practical_01.06.py	(date 1588542622193)
++++ lesson_01/practical_01.06.py	(date 1588542622193)
+@@ -0,0 +1,10 @@
++a = int(input('Введите результат спортсмена в первый день: \n'))
++b = int(input('Введите требуемый результат для спортсмена: \n'))
++
++res = a
++days = 1
++while res < b:
++    res *= 1.10
++    days += 1
++else:
++    print(f'Спортсмену требуется {days} дней для достижения результата.')
+Index: lesson_01/practical_01.05.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_01/practical_01.05.py	(date 1588542622193)
++++ lesson_01/practical_01.05.py	(date 1588542622193)
+@@ -0,0 +1,17 @@
++profit = input('Введите выручку компании (в руб.): \n')
++costs = input('Введите издержки компании (в руб.: \n')
++
++fin_res = int(profit) - int(costs)
++
++if fin_res > 0:
++    print('Ваша компания прибыльна!')
++    profitability = fin_res / int(profit)
++    print(f'Рентабильность составляет: {profitability}')
++    workers_number = input('Введите численность компании:\n')
++    norm_profitability = fin_res / int(workers_number)
++    print(f'Норма прибыли на одного сотрудника: {norm_profitability}')
++elif fin_res < 0:
++    print('Ваша компания убыточна!')
++else:
++    print('Ваша компания находится в состоянии самоокупаемости.')
++
+Index: lesson_01/practical_01.01.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_01/practical_01.01.py	(date 1588542622193)
++++ lesson_01/practical_01.01.py	(date 1588542622193)
+@@ -0,0 +1,14 @@
++var_01 = 1
++var_02 = 2
++name = input('Введите ваше имя:\n')
++age = input('Введите ваш возраст:\n')
++
++print('Расчет суммы двух чисел:')
++var_03 = input('Введите первое число:')
++var_04 = input('Введите второе число:')
++
++
++sum_vars = int(var_03) + int(var_04)
++print(f'Сумма числа равна: {sum_vars}')
++
++
+Index: lesson_01/practical_01.02.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_01/practical_01.02.py	(date 1588542622193)
++++ lesson_01/practical_01.02.py	(date 1588542622193)
+@@ -0,0 +1,9 @@
++time_sec = input('Введите время в секундах:')
++
++hours = int(time_sec) // 3600
++time_sec = int(time_sec) - hours * 3600
++minutes = int(time_sec) // 60
++seconds = int(time_sec) % 60
++
++
++print(f'Время в формате чч:мм:сс: {hours:>02}:{minutes:>02}:{seconds:>02}')
+Index: lesson_01/practical_01.04.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_01/practical_01.04.py	(date 1588542622193)
++++ lesson_01/practical_01.04.py	(date 1588542622193)
+@@ -0,0 +1,21 @@
++# var = 123
++# a = (var % 10 - 0) // 1 # a = 3 - 0 // 1 = 3
++# b = (var % 100 - a) // 10 # a = 23 - 3 // 10 = 2
++# c = (var % 1000 - b) // 100 # a  = 123 - 23 // 100 = 1
++
++var = int(input('Введите целое положительное число: \n'))  # Add checking type var is digit and don't start at '0'
++
++i = 1
++digit_depth = 1
++remainder = 0
++max_digit = 0
++while i >= 1:
++    digit = (var % (digit_depth * 10) - remainder) // digit_depth
++    digit_depth = digit_depth * 10
++    remainder = var % digit_depth
++    i = var // digit_depth
++    if digit > max_digit:
++        max_digit = digit
++print(f'Максимальное число: {max_digit}')
++
++
+Index: lesson_01/practical_01.03.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_01/practical_01.03.py	(date 1588542622193)
++++ lesson_01/practical_01.03.py	(date 1588542622193)
+@@ -0,0 +1,4 @@
++var = int(input('Введите число n:\n'))  # Add checking type var is digit
++var_sum = var + (var + var*10) + (var + var * 10 + var * 100)
++
++print(var_sum)
+Index: lesson_03/practical_03.02.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_03/practical_03.02.py	(date 1588542622193)
++++ lesson_03/practical_03.02.py	(date 1588542622193)
+@@ -0,0 +1,19 @@
++# 2. Реализовать функцию, принимающую несколько параметров, описывающих данные пользователя: имя, фамилия,
++# год рождения, город проживания, email, телефон. Функция должна принимать параметры как именованные аргументы.
++# Реализовать вывод данных о пользователе одной строкой.
++
++name = input('Введите ваше имя: \n')
++surname = input('Ваша фамилия: \n')
++year = input('Год рождения: \n')
++city = input('Город проживания: \n')
++email = input('Адрес электронной почты: \n')
++phone = input('Номер телефона: \n')
++
++
++def print_profile(n: str, sn: str, y: str, c: str, e: str, p: str) -> str:
++    print(f'Пользователь {n} {sn}, {y} года рождения, проживает в городе {c}, email: {e},'
++          f' номер телефона: {p}')
++    return
++
++
++print_profile(n=name, sn=surname, y=year, c=city, e=email, p=phone)
+Index: lesson_03/practical_03.05.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_03/practical_03.05.py	(date 1588542622197)
++++ lesson_03/practical_03.05.py	(date 1588542622197)
+@@ -0,0 +1,33 @@
++# 5. Программа запрашивает у пользователя строку чисел, разделенных пробелом. При нажатии Enter должна выводиться
++# сумма чисел. Пользователь может продолжить ввод чисел, разделенных пробелом и снова нажать Enter. Сумма вновь
++# введенных чисел будет добавляться к уже подсчитанной сумме. Но если вместо числа вводится специальный символ,
++# выполнение программы завершается. Если специальный символ введен после нескольких чисел, то вначале нужно добавить
++# сумму этих чисел к полученной ранее сумме и после этого завершить программу.
++
++
++def sum_func(s: str):
++    """
++    Функция проверки на спецсимвол и представление строки в виде списка int значений
++    """
++    num_list = []
++    global exit_flag
++    exit_flag = False
++    for itm in s:
++        if itm == 'x':
++            exit_flag = True
++            break
++        itm = int(itm)
++        num_list.append(itm)
++    return num_list
++
++
++summary = 0
++while True:
++    user_str = input('Введите строку чисел, разделенных пробелом: \n')
++    user_str = user_str.split(' ')
++    summary = summary + sum(sum_func(user_str))
++
++    print(f'Сумма равна: {summary}')
++    if exit_flag is True:
++        print('Завершение программы')
++        break
+Index: lesson_03/practical_03.01.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_03/practical_03.01.py	(date 1588542622193)
++++ lesson_03/practical_03.01.py	(date 1588542622193)
+@@ -0,0 +1,19 @@
++# 1. Реализовать функцию, принимающую два числа (позиционные аргументы) и выполняющую их деление. Числа запрашивать
++# у пользователя, предусмотреть обработку ситуации деления на ноль.
++
++def devision(arg_1: int, arg_2: int) -> float:
++    """Функция деления
++    :param arg_1: int делимое
++    :param arg_2: int делитель
++    """
++    try:
++        result = arg_1 / arg_2
++    except ZeroDivisionError:
++        result = 'Ошибка. Невозможно деление на ноль'
++        return result
++    return arg_1 / arg_2
++
++
++a = input('Введите первое число для деления (делимое): \n')
++b = input('Введите второе число для деления (делитель): \n')
++print(devision(a, b))
+Index: lesson_03/practical_03.04.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_03/practical_03.04.py	(date 1588542622193)
++++ lesson_03/practical_03.04.py	(date 1588542622193)
+@@ -0,0 +1,25 @@
++# 4. Программа принимает действительное положительное число x и целое отрицательное число y. Необходимо выполнить
++# возведение числа x в степень y. Задание необходимо реализовать в виде функции my_func(x, y). При решении задания
++# необходимо обойтись без встроенной функции возведения числа в степень.
++
++# Подсказка: попробуйте решить задачу двумя способами. Первый — возведение в степень с помощью оператора **.
++# Второй — более сложная реализация без оператора **, предусматривающая использование цикла.
++
++
++def my_func_1(arg_1: float, arg_2: int):
++    return x ** y
++
++
++def my_func_2(arg_1: float, arg_2: int):
++    ex = arg_1
++    while arg_2 < -1:
++        ex = ex * arg_1
++        arg_2 += 1
++    return 1 / ex
++
++
++x = abs(float(input('Введите действительное положительное число x (основание степени): \n')))
++y = int(input('Введите целое отрицательное число y (степень): \n'))
++
++print(my_func_1(x, y))
++print(my_func_2(x, y))
+Index: lesson_03/practical_03.06.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_03/practical_03.06.py	(date 1588542622197)
++++ lesson_03/practical_03.06.py	(date 1588542622197)
+@@ -0,0 +1,20 @@
++# 6. Реализовать функцию int_func(), принимающую слово из маленьких латинских букв и возвращающую его же, но с
++# прописной первой буквой. Например, print(int_func(‘text’)) -> Text.
++# Продолжить работу над заданием. В программу должна попадать строка из слов, разделенных пробелом. Каждое слово
++# состоит из латинских букв в нижнем регистре. Сделать вывод исходной строки, но каждое слово должно начинаться с
++# заглавной буквы. Необходимо использовать написанную ранее функцию int_func().
++
++
++def int_func(s: str):
++    return s.title()
++
++
++user_str = input('Введите несколько слов, разделенных пробелами: \n')
++user_str = user_str.split(' ')
++
++title_str = ''
++for itm in user_str:
++    title_str = (f'{title_str} {int_func(itm) }')
++
++
++print(title_str.strip())
+Index: lesson_03/practical_03.03.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_03/practical_03.03.py	(date 1588542622193)
++++ lesson_03/practical_03.03.py	(date 1588542622193)
+@@ -0,0 +1,16 @@
++# 3. Реализовать функцию my_func(), которая принимает три позиционных аргумента, и возвращает сумму наибольших
++# двух аргументов.
++
++
++def my_func(arg_1: int, arg_2: int, arg_3: int) -> int:
++    local_list = [arg_1, arg_2, arg_3]
++    local_list.sort()
++    local_list.pop(0)
++    return sum(local_list)
++
++
++a = int(input('Введите первый аргумент: \n'))
++b = int(input('Введите второй аргумент: \n'))
++c = int(input('Введите третий аргумент: \n'))
++
++print(my_func(a, b, c))
+Index: lesson_04/practical_04.02.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_04/practical_04.02.py	(date 1588542622197)
++++ lesson_04/practical_04.02.py	(date 1588542622197)
+@@ -0,0 +1,11 @@
++# 2. Представлен список чисел. Необходимо вывести элементы исходного списка, значения которых больше предыдущего
++# элемента.
++# Подсказка: элементы, удовлетворяющие условию, оформить в виде списка. Для формирования списка использовать генератор.
++
++my_list = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
++nums = len(my_list)
++
++res_list = [itm for itm in my_list[1:] if itm > my_list[my_list.index(itm)-1]]
++
++print(res_list)
++
+Index: lesson_04/practical_04.06.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_04/practical_04.06.py	(date 1588542622197)
++++ lesson_04/practical_04.06.py	(date 1588542622197)
+@@ -0,0 +1,17 @@
++# 6. Реализовать два небольших скрипта:
++# а) бесконечный итератор, генерирующий целые числа, начиная с указанного,
++# б) бесконечный итератор, повторяющий элементы некоторого списка, определенного заранее.
++# Подсказка: использовать функцию count() и cycle() модуля itertools.
++
++from itertools import cycle, count
++from time import sleep
++
++start = 112
++for i in count(start):
++    print(i)
++    sleep(0.5)
++
++my_list = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
++for i in cycle(my_list):
++    print(i)
++    sleep(0.5)
+Index: lesson_04/practical_04.07.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_04/practical_04.07.py	(date 1588542622197)
++++ lesson_04/practical_04.07.py	(date 1588542622197)
+@@ -0,0 +1,21 @@
++# 7. Реализовать генератор с помощью функции с ключевым словом yield, создающим очередное значение. При вызове функции
++# должен создаваться объект-генератор. Функция должна вызываться следующим образом: for el in fibo_gen(). Функция
++# отвечает за получение факториала числа, а в цикле необходимо выводить только первые 15 чисел.
++# Подсказка: факториал числа n — произведение чисел от 1 до n. Например, факториал четырёх 4! = 1 * 2 * 3 * 4 = 24.
++
++def fibo_gen(max: int):
++    """
++    Функция расчета факториала числа.
++    :param max:
++    :return:
++    """
++    fact = 1
++    i = 1
++    while i <= max:
++        fact *= i
++        yield fact
++        i += 1
++
++
++a = fibo_gen(15)
++print(list(a))
+Index: lesson_04/practical_04.04.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_04/practical_04.04.py	(date 1588542622197)
++++ lesson_04/practical_04.04.py	(date 1588542622197)
+@@ -0,0 +1,9 @@
++# 4. Представлен список чисел. Определить элементы списка, не имеющие повторений. Сформировать итоговый массив
++# чисел, соответствующих требованию. Элементы вывести в порядке их следования в исходном списке. Для выполнения
++# задания обязательно использовать генератор.
++
++my_list = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
++
++res_list = [itm for itm in my_list if my_list.count(itm) == 1]
++
++print(res_list)
+Index: lesson_04/practical_04.01.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_04/practical_04.01.py	(date 1588542622197)
++++ lesson_04/practical_04.01.py	(date 1588542622197)
+@@ -0,0 +1,12 @@
++# 1. Реализовать скрипт, в котором должна быть предусмотрена функция расчета заработной платы сотрудника. В расчете
++# необходимо использовать формулу: (выработка в часах * ставка в час) + премия. Для выполнения расчета для конкретных
++# значений необходимо запускать скрипт с параметрами.
++
++import sys
++
++rate_sal = 100
++_, work_hours, award = sys.argv
++work_hours = int(work_hours)
++award = int(award)
++
++print(f'Заработная плата сотрудника составляет: {(work_hours * rate_sal) + award}')
+Index: lesson_04/practical_04.03.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_04/practical_04.03.py	(date 1588542622197)
++++ lesson_04/practical_04.03.py	(date 1588542622197)
+@@ -0,0 +1,6 @@
++# 3. Для чисел в пределах от 20 до 240 найти числа, кратные 20 или 21. Необходимо решить задание в одну строку.
++# Подсказка: использовать функцию range() и генератор.
++
++result = [itm for itm in range(20, 240) if (itm % 20 == 0 or itm % 21 == 0)]
++
++print(result)
+Index: lesson_04/practical_04.05.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_04/practical_04.05.py	(date 1588542622197)
++++ lesson_04/practical_04.05.py	(date 1588542622197)
+@@ -0,0 +1,12 @@
++# 5. Реализовать формирование списка, используя функцию range() и возможности генератора. В список должны войти
++# четные числа от 100 до 1000 (включая границы). Необходимо получить результат вычисления произведения всех элементов
++# списка.
++# Подсказка: использовать функцию reduce().
++
++from functools import reduce
++
++my_list = [itm for itm in range(99, 1001) if not itm & 1]
++m_all = reduce(lambda x, y: x * y, my_list)
++
++print(m_all)
++
+Index: lesson_02/practical_02.04.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_02/practical_02.04.py	(date 1588542622193)
++++ lesson_02/practical_02.04.py	(date 1588542622193)
+@@ -0,0 +1,10 @@
++# 4. Пользователь вводит строку из нескольких слов, разделённых пробелами. Вывести каждое слово с новой строки.
++# Строки необходимо пронумеровать. Если в слово длинное, выводить только первые 10 букв в слове.
++
++user_string = input('Введите несколько слов, разделенных пробелами: \n')
++user_string_list = user_string.split(' ')
++
++i = 1
++for itm in user_string_list:
++    print(f'{i}. {itm[:10]}')
++    i += 1
+Index: lesson_02/practical_02.01.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_02/practical_02.01.py	(date 1588542622193)
++++ lesson_02/practical_02.01.py	(date 1588542622193)
+@@ -0,0 +1,14 @@
++# 1. Создать список и заполнить его элементами различных типов данных. Реализовать скрипт проверки типа данных каждого
++# элемента. Использовать функцию type() для проверки типа. Элементы списка можно не запрашивать у пользователя, а
++# указать явно, в программе.
++
++my_list = [1, 2, 'str', True, 2.5, (9, 8, 7)]
++for itm in my_list:
++    print(type(itm))
++
++for itm in my_list:
++    if type(itm) is bool:
++        print('True')
++    else:
++        print('False')
++
+Index: lesson_02/practical_02.03.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_02/practical_02.03.py	(date 1588542622193)
++++ lesson_02/practical_02.03.py	(date 1588542622193)
+@@ -0,0 +1,36 @@
++# 3. Пользователь вводит месяц в виде целого числа от 1 до 12. Сообщить к какому времени года относится месяц
++# (зима, весна, лето, осень). Напишите решения через list и через dict.
++
++while True:
++    month = input('Введите порядковый номер месяца от 1 до 12: \n')
++    if month.isdigit():
++        month = int(month)
++        break
++    else:
++        print('Ошибка ввода. Введите число: \n')
++
++# Решение с использованием списка
++winter = [12, 1, 2]
++spring = [3, 4, 5]
++summer = [6, 7, 8]
++autumn = [9, 10, 11]
++
++if month in winter:
++    print('Зима (решение с использованием списка)')
++elif month in spring:
++    print('Весна (решение с использованием списка)')
++elif month in summer:
++    print('Лето (решение с использованием списка)')
++elif month in autumn:
++    print('Осень (решение с использованием списка)')
++else:
++    print('Введен неправильный порядковый номер месяца')
++
++# Решение с использованием словаря
++year_dict = {1: 'Зима', 2: 'Зима', 3: 'Весна', 4: 'Весна', 5: 'Весна', 6: 'Лето', 7: 'Лето', 8: 'Лето', 9: 'Осень',
++             10: 'Осень', 11: 'Осень', 12: 'Зима'}
++if 0 < month < 13:
++    print(f'{year_dict[month]} (решение с использованием словаря)')
++else:
++    print('Введен неправильный порядковый номер месяца')
++
+Index: lesson_02/practical_02.05.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_02/practical_02.05.py	(date 1588542622193)
++++ lesson_02/practical_02.05.py	(date 1588542622193)
+@@ -0,0 +1,23 @@
++# 5. Реализовать структуру «Рейтинг», представляющую собой не возрастающий набор натуральных чисел. У пользователя
++# необходимо запрашивать новый элемент рейтинга. Если в рейтинге существуют элементы с одинаковыми значениями, то
++# новый элемент с тем же значением должен разместиться после них.
++
++# Подсказка. Например, набор натуральных чисел: 7, 5, 3, 3, 2.
++# Пользователь ввел число 3. Результат: 7, 5, 3, 3, 3, 2.
++# Пользователь ввел число 8. Результат: 8, 7, 5, 3, 3, 2.
++# Пользователь ввел число 1. Результат: 7, 5, 3, 3, 2, 1.
++# Набор натуральных чисел можно задать непосредственно в коде, например, my_list = [7, 5, 3, 3, 2].
++
++my_list = [7, 5, 3, 3, 2]
++while True:
++    element = input('Введите целое число новый элемент рейтинга: \n')
++    if element.isdigit():
++        element = int(element)
++        break
++    else:
++        print('Ошибка ввода. Введите число: \n')
++
++my_list.append(element)
++my_list.sort()
++my_list.reverse()
++print(my_list)
+Index: lesson_02/practical_02.06.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_02/practical_02.06.py	(date 1588542622193)
++++ lesson_02/practical_02.06.py	(date 1588542622193)
+@@ -0,0 +1,58 @@
++# 6. *Реализовать структуру данных «Товары». Она должна представлять собой список кортежей. Каждый кортеж хранит
++# информацию об отдельном товаре. В кортеже должно быть два элемента — номер товара и словарь с параметрами
++# (характеристиками товара: название, цена, количество, единица измерения). Структуру нужно сформировать программно,
++# т.е. запрашивать все данные у пользователя.
++# Пример готовой структуры:
++# [
++# (1, {“название”: “компьютер”, “цена”: 20000, “количество”: 5, “eд”: “шт.”}),
++# (2, {“название”: “принтер”, “цена”: 6000, “количество”: 2, “eд”: “шт.”}),
++# (3, {“название”: “сканер”, “цена”: 2000, “количество”: 7, “eд”: “шт.”})
++# ]
++
++# Необходимо собрать аналитику о товарах. Реализовать словарь, в котором каждый ключ — характеристика товара, например
++# название, а значение — список значений-характеристик, например список названий товаров.
++# Пример:
++# {
++# “название”: [“компьютер”, “принтер”, “сканер”],
++# “цена”: [20000, 6000, 2000],
++# “количество”: [5, 2, 7],
++# “ед”: [“шт.”]
++# }
++main_structure = []
++products_list = []
++i = 1
++while i <= 2:
++    products_list = [i, {'название': input('Введите название продукта: \n'),
++                         'цена': int(input('Введите цену продукта: \n')),
++                         'количество': int(input('Введите количество продуктов: \n')),
++                         'ед.': input('Введите размерность количества: \n')}]
++    products_tuple = tuple(products_list)
++    main_structure.append(products_tuple)
++    i += 1
++
++print(main_structure)
++
++name_set = set()
++price_set = set()
++stock_set = set()
++measure_set = set()
++
++itm = 0
++for itm in main_structure:
++    name_set.add(itm[1]['название'])
++    price_set.add(itm[1]['цена'])
++    stock_set.add(itm[1]['количество'])
++    measure_set.add(itm[1]['ед.'])
++
++name_dict = {'название': list(name_set)}
++price_dict = {'цена': list(price_set)}
++stock_dict = {'количество': list(stock_set)}
++measure_dict = {'ед.': list(measure_set)}
++
++analytic_structure = dict()
++analytic_structure.update(name_dict)
++analytic_structure.update(price_dict)
++analytic_structure.update(stock_dict)
++analytic_structure.update(measure_dict)
++
++print(analytic_structure)
+\ No newline at end of file
+Index: lesson_02/practical_02.02.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_02/practical_02.02.py	(date 1588542622193)
++++ lesson_02/practical_02.02.py	(date 1588542622193)
+@@ -0,0 +1,28 @@
++# 2. Для списка реализовать обмен значений соседних элементов, т.е. Значениями обмениваются элементы с индексами 0 и 1,
++# 2 и 3 и т.д. При нечетном количестве элементов последний сохранить на своем месте. Для заполнения списка элементов
++# необходимо использовать функцию input().
++
++my_list = []
++list_depth = 0
++while list_depth <= 4:
++    while True:
++        print(f'Введите целое число для {list_depth} элемента списка: \n')
++        itm_list = input()
++        if itm_list.isdigit():
++            itm_list = int(itm_list)
++            my_list.append(itm_list)
++            break
++        else:
++            print('Ошибка ввода. Введите число: \n')
++    list_depth += 1
++
++print(f'Ваш список: {my_list}')
++
++i = 0
++while i <= (len(my_list) - 2):
++    tmp = my_list[i+1]
++    my_list[i+1] = my_list[i]
++    my_list[i] = tmp
++    i += 2
++
++print(f'Конечный список после замены: {my_list}')
+Index: lesson_01.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_01.py	(date 1588542622193)
++++ lesson_01.py	(date 1588542622193)
+@@ -0,0 +1,32 @@
++name = input('Введите имя пользователя\n')
++while True:
++    age = input('Введите ваш возраст\n')
++    if age.isdigit():
++        age = int(age)
++        break
++    else:
++        print('Ошибка ввода данных. Введите только число.')
++
++
++print(type(age))
++print('Добрый день', name + '!')
++if age >= 18:
++    print('Доступ разрешен к фильмам 18+')
++elif age >= 12:
++    print('Доступ разрен к фильмам 12+')
++else:
++    print('Доступ разрешен к фильмам')
++
++
++# i = 0
++# while i < 10:
++#     print(i)
++#     if i == 4:
++#         break
++#     # if i == 3:
++#     #     i += 2
++#     #     continue
++#     i += 1
++# else:
++#     print('WHILE ELSE')
++# print('#' * 10)
+Index: lesson_02.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lesson_02.py	(date 1588542622193)
++++ lesson_02.py	(date 1588542622193)
+@@ -0,0 +1,12 @@
++a = 'Hello world!'
++b = ['Next', 1, 2, 3, 4, 5, 6]
++
++for itm in b[:]:
++    b.append(itm * 2)
++
++print(b)
++
++# i = 0
++# while i < len(a):
++#     print(a[i])
++#     i += 1
+diff --git my_modules/sub_module.py my_modules/sub_module.py
+new file mode 100644
